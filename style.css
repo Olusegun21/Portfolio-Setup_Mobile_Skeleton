@@ -19,23 +19,16 @@ body {
   max-width: 400px;
   width: 100%;
   min-height: 100vh;
-}
-
-.container {
-  background: url("assets/images/header-shapes-mobile@2x.png") no-repeat;
-  background-size: contain;
-  background-position: 0 50px;
-  min-height: 100vh;
+  background-color: #e5e5e5;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
   height: 44px;
-  margin: auto;
-  padding-top: 44px;
+  padding: 44px 30px;
+  background-color: white;
 }
 
 .my_logo {
@@ -54,13 +47,14 @@ body {
 }
 
 .description {
-  margin: auto;
-  width: 80%;
-  height: 604px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 154px 0;
+  padding: 65px 30px;
+  background: url(assets/images/header-shapes-mobile@2x.png) no-repeat, url(assets/images/header-background-mobile.png) no-repeat;
+  background-size: contain;
+  min-height: 100vh;
 }
 
 .description h1 {

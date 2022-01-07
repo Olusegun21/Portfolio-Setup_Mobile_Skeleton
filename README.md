@@ -17,6 +17,13 @@ Additional description about the project and its features.
 [Live Demo Link](https://olusegun21.github.io/Portfolio-Setup_Mobile_Skeleton/)
 
 
+## Get Started
+
+- Clone the repo by using (git clone https://github.com/your/your-project.git)
+- Nagivate to the directory by using (cd your-project/)
+- Follow the HTML-CSS linters confuguration to setup linters [Link to Microverse linter docs](https://github.com/microverseinc/linters-config/tree/master/html-css)
+
+
 ## Author
 
 👤 **Olusegun aka Bosby**
@@ -43,3 +50,8 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Figma
 - My coding partners 
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
