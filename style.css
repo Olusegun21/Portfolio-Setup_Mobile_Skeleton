@@ -22,6 +22,11 @@ body {
   background-color: #e5e5e5;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -102,4 +107,118 @@ body {
   line-height: 24px;
   color: #7f8cff;
   margin: 12px 0;
+}
+
+/* Section - Work */
+.works-grid {
+  display: grid;
+}
+
+.work-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 85%;
+  top: 114px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work-img {
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.work-desc h1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 12px 0;
+}
+
+.frame li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.frame li:not(:first-child)::before {
+  content: url(./assets/images/Counter.png);
+  margin-right: 10px;
+}
+
+.canopy {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.b-e-d {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.work1-p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
+}
+
+.framework {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 12px 0;
+}
+
+.framework li {
+  list-style-type: none;
+  margin-right: 10px;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.button {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
 }
