@@ -75,7 +75,7 @@ img {
 
 .socials {
   height: 20px;
-  margin: 12px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,4 +221,113 @@ img {
   letter-spacing: 0.03em;
   color: #396df2;
   background-color: white;
+  margin: 15px 0;
 }
+
+.button:hover {
+  background-color: #6070ff;
+  color: white;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.button:disabled {
+  border: 1px solid #5e6c84;
+  color: #5e6c84;
+}
+
+.button:active {
+  background-color: #2230d2;
+  box-shadow: none;
+  color: white;
+}
+
+.description-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 65px 30px;
+  background: url(assets/images/Base-about-myself.png) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.description-1 h1 {
+  height: 150px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.description-1 h4 {
+  height: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+  margin: 15px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.language {
+  width: 327px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #DFE1E6;
+}
+
+.first {
+  border: none;
+}
+
+.language i {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.language h4 {
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.list {
+  display: grid;
+  grid-template-rows: 66.72px 66.72px 66.72px;
+  grid-row-gap: 15px;
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-start;
+  background: #F7F7F9;
+  border-radius: 8px;
+  width: 330px;
+}
+
+.lang > p {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.lang > img {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #FFFFFF;
+  margin: 10px;   
+}
+
+
+
