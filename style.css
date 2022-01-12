@@ -22,6 +22,11 @@ body {
   background-color: #e5e5e5;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -70,7 +75,7 @@ body {
 
 .socials {
   height: 20px;
-  margin: 12px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,6 +88,11 @@ body {
 
 .socials li a {
   text-decoration: none;
+}
+
+.language i {
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
 .socials li a i {
@@ -102,4 +112,217 @@ body {
   line-height: 24px;
   color: #7f8cff;
   margin: 12px 0;
+}
+
+/* Section - Work */
+.works-grid {
+  display: grid;
+}
+
+.work-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 85%;
+  top: 114px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work-img {
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.work-desc h1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 12px 0;
+}
+
+.frame li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.frame li:not(:first-child)::before {
+  content: url(./assets/images/Counter.png);
+  margin-right: 10px;
+}
+
+.canopy {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.b-e-d {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.work1-p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
+}
+
+.framework {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 12px 0;
+}
+
+.framework li {
+  list-style-type: none;
+  margin-right: 10px;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.button {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
+  margin: 15px 0;
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: white;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.button:disabled {
+  border: 1px solid #5e6c84;
+  color: #5e6c84;
+}
+
+.button:active {
+  background-color: #2230d2;
+  box-shadow: none;
+  color: white;
+}
+
+.description-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 65px 30px;
+  background: url(assets/images/Base-about-myself.png) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.description-1 h2 {
+  height: 150px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.description-1 h4 {
+  height: 14px;
+  color: #7f8cff;
+  margin: 15px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.language {
+  width: 327px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #dfe1e6;
+}
+
+.first {
+  border: none;
+}
+
+.language h4 {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.list {
+  display: grid;
+  grid-template-rows: 66.72px 66.72px 66.72px;
+  grid-row-gap: 15px;
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-start;
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 330px;
+}
+
+.lang > p {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.lang > img {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #fff;
+  margin: 10px;
 }
